@@ -1,0 +1,90 @@
+.Task{
+    /* margin-top:1vh;
+    padding: 1vh;
+    height: 58vh; */
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    overflow-y: scroll;
+    scrollbar-width: 0px;
+    width: 100vw;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+
+
+.task_hedder{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.spec_hedder{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.1rem;
+}
+
+.task_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:1rem;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1500px) {
+    .task_hedder {
+      font-size: 3rem;
+    }
+
+    .spec_hedder{
+        font-size: 2.55rem;
+
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .task_hedder {
+      font-size: 2rem;
+    }
+    .spec_hedder{
+        font-size: 1.7rem;
+    }
+  }
+  @media screen and (max-height: 1900px) {
+    .task_hedder {
+      font-size: 2rem;
+    }
+    .spec_hedder{
+        font-size: 1.7rem;
+    }
+  }
+  @media screen and (min-height: 1901px) {
+
+    .task_hedder {
+      font-size: 3.5rem;
+    }
+    .spec_hedder{
+        font-size: 2.975rem;
+    }
+  }
+  @media screen and (min-height: 1921px) {
+    .task_hedder {
+      font-size: 5rem;
+      
+    }
+    .spec_hedder{
+        font-size: 4.25rem;
+    }
+  }
+  

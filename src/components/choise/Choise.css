@@ -1,0 +1,89 @@
+.Choise{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: fit-content;
+}
+
+
+.options{
+  width:50vw;
+  height: fit-content;
+  border: black solid 0.05rem;
+  border-top: none;
+  color: gray;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+.tool:hover{
+  color:black;
+  background-color: rgb(141, 176, 240);
+}
+
+
+.choose_tool{
+  width:50vw;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(141, 176, 240);
+  color: black;
+  border:none;
+  border-bottom: gainsboro solid 0.05rem;
+}
+
+.choose_tool:focus{
+  outline: none !important;
+}
+
+@media screen and (max-width: 1500px) {
+  .options {
+    font-size: 3rem;
+  }
+  .choose_tool {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .options {
+    font-size: 2rem;
+  }
+
+  .choose_tool {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-height: 1900px) {
+  .options {
+    font-size: 2rem;
+    height: fit-content;
+  }
+  .choose_tool {
+    font-size: 2rem;
+    height: fit-content;
+  }
+}
+@media screen and (min-height: 1901px) {
+  .options {
+    font-size: 3.5rem;
+    height: fit-content;
+  }
+  .choose_tool {
+    font-size: 3.5rem;
+    height: fit-content;
+  }
+}
+@media screen and (min-height: 1921px) {
+
+  .options {
+    font-size: 5rem;
+    height: fit-content;
+  }
+  .choose_tool {
+    font-size: 5rem;
+    height: fit-content;
+  }
+}
+
+
