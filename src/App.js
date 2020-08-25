@@ -25,7 +25,7 @@ const list = [
       },
       {
         name: "CM Zero",
-        spec: "TBD",
+        spec: "6.10",
       },
       {
         name: "Post PM",
@@ -33,7 +33,7 @@ const list = [
       },
       {
         name: "APC Teach",
-        spec: "Work Order procedure",
+        spec: "6.11.1",
       },
     ],
   },
@@ -56,7 +56,7 @@ const list = [
       },
       {
         name: "CM Zero",
-        spec: "Section 6.2.2",
+        spec: "Section 6.6.2",
       },
       {
         name: "Post PM",
@@ -106,11 +106,11 @@ const list = [
     task_list: [
       {
         name: "PMA / PrePM",
-        spec: "Section 6.3.1",
+        spec: "Section 6.9.1",
       },
       {
         name: "PMB",
-        spec: "Mail Spec",
+        spec: "Work order procedure search 2064394\nin fusion and refer to spec for some\nindividual steps",
       },
       {
         name: "Weekly / Monthly",
@@ -118,15 +118,15 @@ const list = [
       },
       {
         name: "CM Zero",
-        spec: "Section 6.3.1 step 120",
+        spec: "Section 6.4",
       },
       {
         name: "Post PM",
-        spec: "Section 6.3.10",
+        spec: "Section 6.9.10",
       },
       {
         name: "APC Teach",
-        spec: "Section 6.10.4",
+        spec: "Section 6.5",
       },
     ],
   },
@@ -184,7 +184,7 @@ const list = [
       },
       {
         name: "Post PM",
-        spec: "Section 8.1.12 step 270",
+        spec: "Section 8.1.2 step 270",
       },
       {
         name: "APC Teach",
